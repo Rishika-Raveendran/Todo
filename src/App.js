@@ -63,7 +63,6 @@ function App() {
       arr[i].position = i;
     }
     setState(arr);
-    localStorage.setItem("todo", arr);
   };
   const handleClick = () => {
     setShowModal(true);
@@ -111,7 +110,7 @@ function App() {
             </IonCol>
           </IonRow>
           <IonRow style={{ marginTop: "2vh" }}>
-            <IonCol size="1" offset="9">
+            <IonCol size="1" offset="9" offsetMd="11">
               <IonButton
                 shape="round"
                 color="outline"
