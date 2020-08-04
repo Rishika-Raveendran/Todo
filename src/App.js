@@ -110,10 +110,10 @@ function App() {
             </IonCol>
           </IonRow>
           <IonRow style={{ marginTop: "2vh" }}>
-            <IonCol size="1" offset="9" offsetMd="11">
+            <IonCol size="1" offset="8" offsetMd="11">
               <IonButton
                 shape="round"
-                color="outline"
+                color="dark"
                 onClick={handleClick}
                 className="add-button"
               >

@@ -3,9 +3,7 @@
 .App {
   text-align: center;
 }
-.t-bar {
-  --ion-background-color: rgb(15, 15, 107) !important;
-}
+
 .app-title {
   font-family: "Anton", sans-serif;
   font-size: 5vh;
@@ -22,7 +20,7 @@
   font-size: 6vh;
 }
 .list999 {
-  color: #ecf1fb;
+  color: rgb(10, 10, 10);
   font-family: "Kalam", cursive;
   font-size: 5vh;
 }
@@ -105,7 +103,7 @@
   --ion-background-color: rgb(247, 238, 160);
 }
 .list-container {
-  --ion-background-color: rgb(3, 8, 51);
+  --ion-background-color: rgb(219, 199, 157);
 }
 .add-button {
   font-size: 5vh;
