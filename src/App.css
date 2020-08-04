@@ -1,38 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic+Slab&family=Anton&family=Bad+Script&family=Kalam:wght@300&family=Shadows+Into+Light&display=swap");
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.t-bar {
+  --ion-background-color: rgb(15, 15, 107) !important;
+}
+.app-title {
+  font-family: "Anton", sans-serif;
+  font-size: 5vh;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.modal {
+  --ion-background-color: rgb(231, 231, 212);
+}
+.motiv {
+  padding: 2vh;
+  padding-top: 5vh;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 6vh;
+}
+.list999 {
+  color: #ecf1fb;
+  font-family: "Kalam", cursive;
+  font-size: 5vh;
+}
+.list0 {
+  font-size: 3vh;
+  --ion-background-color: rgb(236, 20, 20);
+  font-family: "Kalam", cursive;
+}
+.list1 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: red;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.list2 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(253, 39, 1);
 }
 
-.App-link {
-  color: #61dafb;
-}
+.list3 {
+  font-size: 3vh;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(248, 62, 16);
+}
+.list4 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(247, 81, 52);
+}
+.list5 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(252, 123, 63);
+}
+.list6 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(252, 153, 23);
+}
+.list7 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(241, 212, 42);
+}
+.list8 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(250, 232, 70);
+}
+.list9 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(240, 225, 92);
+}
+.list10 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(238, 225, 113);
+}
+.list11 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(241, 232, 144);
+}
+.list12 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(224, 216, 145);
+}
+.list13 {
+  --ion-background-color: rgb(245, 237, 167);
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+}
+.list14 {
+  font-size: 3vh;
+  font-family: "Kalam", cursive;
+  --ion-background-color: rgb(247, 238, 160);
+}
+.list-container {
+  --ion-background-color: rgb(3, 8, 51);
+}
+.add-button {
+  font-size: 5vh;
+  border-radius: 50%;
 }
